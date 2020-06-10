@@ -1,11 +1,12 @@
-//import React,{useState} from 'react';
+import React from 'react';
+import Room from "./Room";
 import './App.css';
-import Room from './Room.js';
 
 function App() {
   return (
-    <div> 
-      <Room />
+    <div>      
+      <Room></Room>
+     
     </div>
   );
 }
